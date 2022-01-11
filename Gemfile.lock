@@ -69,9 +69,14 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
+    autoprefixer-rails (10.4.0.0)
+      execjs (~> 2)
     bindex (0.8.1)
     bootsnap (1.9.4)
       msgpack (~> 1.0)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     builder (3.2.4)
     capybara (3.36.0)
       addressable
@@ -124,6 +129,7 @@ GEM
       dry-initializer (~> 3.0)
       dry-schema (~> 1.8, >= 1.8.0)
     erubi (1.10.0)
+    execjs (2.8.1)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -297,6 +303,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  bootstrap-sass (= 3.4.1)
   capybara
   config
   i18n_lazy_scope

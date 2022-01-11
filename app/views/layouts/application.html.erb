@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SampleApp</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title><%= yield(:title) %> | <%= t "base_title" %></title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
-    <%= javascript_include_tag "translations", skip_pipeline: true %>
-  </head>
+<head>
+  <title><%= full_title yield :title %></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag "custom", media: "all", "data-turbolinks-track": "reload" %>
+  <%= stylesheet_link_tag "color", media: "all", "data-turbolinks-track": "reload" %>
+  <%= render "layouts/shim" %>
+  <%= javascript_include_tag "translations", skip_pipeline: true %>
+</head>
 
-  <body>
-    <%= link_to "En", locale: :en %>
-    <%= link_to "Vi", locale: :vi %>
+<body>
+  <%= render "layouts/header" %>
+  <div class="container">
     <%= yield %>
-    <script type="text/javascript">
-      I18n.defaultLocale = "<%= I18n.default_locale %>";
-      I18n.locale = "<%= I18n.locale %>";
-    </script>
-  </body>
+  <%= render "layouts/footer" %>
+  </div>
+  <script type="text/javascript">
+    I18n.defaultLocale = "<%= I18n.default_locale %>";
+    I18n.locale = "<%= I18n.locale %>";
+  </script>
+</body>
 </html>

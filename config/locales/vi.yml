@@ -1,8 +1,13 @@
 vi:
   rails: "Ruby on Rails"
-  rails_tut: "Hướng dẫn Ruby on Rails"
+  rails_tutorial: "Hướng dẫn Ruby on Rails"
   rails_book: "Sách dạy Ruby on Rails"
   rails_contact: "Trang liên lạc Ruby on Rails"
+  log_in: "Đăng nhập"
+  sign_up: "Đăng ký"
+  new_users: "Đây sẽ là trang đăng ký cho người dùng mới."
+  news: "Tin Tức"
+  michael_hartl: " - Michael Hartl"
   app:
     title: "Ứng dụng mẫu"
   home:
@@ -10,15 +15,14 @@ vi:
     content: "Đây là trang chủ của ứng dụng mẫu %{link}."
   about:
     title: "Về chúng tôi"
-    content: "%{rails_tut}, một phần của %{learn}, là
+    content: "%{rails_tutorial}, một phần của %{learn}, là
               %{book} và %{screencasts} để dạy lập trình web %{rails}.
               Đây là chương trình ví dụ của khóa học."
   help:
     title: "Trợ giúp"
-    content: "Tìm sự trợ giúp về khóa học Ruby on Rails ở %{rails_tut}.
+    content: "Tìm sự trợ giúp về khóa học Ruby on Rails ở %{rails_tutorial}.
               Để được trợ giúp về ứng dụng mẫu này, xem %{book}"
   contact:
     title: "Liên hệ"
     content: "Liên hệ khóa học Ruby on Rails Tutorial về phần mềm mẫu ở
               %{rails_contact}."
-              

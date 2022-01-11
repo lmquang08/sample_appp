@@ -2,6 +2,7 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
+gem "bootstrap-sass", "3.4.1"
 gem "i18n_lazy_scope"
 gem "importmap-rails"
 gem "jbuilder"
@@ -17,8 +18,8 @@ gem "turbo-rails"
 # gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", require: false
 gem "sassc-rails"
-gem "webpacker", "~> 4.0"
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
+gem "webpacker", "~> 4.0"
 group :development, :test do
   gem "pry", "~> 0.14.0"
 end
