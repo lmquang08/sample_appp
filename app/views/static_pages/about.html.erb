@@ -1,0 +1,11 @@
+<% provide :title, t("about.title") %>
+<h1><%= t "about.title" %></h1>
+<p>
+  <%= sanitize t("about.content",
+    rails_tut: link_to(t("rails_tut"), Settings.rails_tutorial),
+    learn: link_to(t("learn_enough"), Settings.learn_enough),
+    book: link_to(t("rails_book"), Settings.rails_book),
+    screencasts: link_to(t("screen_casts"), Settings.rails_screen_casts),
+    rails: link_to(t("rails"), Settings.rails))
+  %>
+</p>

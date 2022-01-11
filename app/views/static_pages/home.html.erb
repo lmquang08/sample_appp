@@ -1,0 +1,7 @@
+<% provide :title, t("home.title") %>
+<h1><%= t "home.title" %></h1>
+<p>
+  <%= sanitize t("home.content",
+    link: link_to(t("rails_tut"), Settings.rails_tutorial))
+  %>
+</p>
