@@ -1,0 +1,24 @@
+vi:
+  rails: "Ruby on Rails"
+  rails_tut: "Hướng dẫn Ruby on Rails"
+  rails_book: "Sách dạy Ruby on Rails"
+  rails_contact: "Trang liên lạc Ruby on Rails"
+  app:
+    title: "Ứng dụng mẫu"
+  home:
+    title: "Trang chủ"
+    content: "Đây là trang chủ của ứng dụng mẫu %{link}."
+  about:
+    title: "Về chúng tôi"
+    content: "%{rails_tut}, một phần của %{learn}, là
+              %{book} và %{screencasts} để dạy lập trình web %{rails}.
+              Đây là chương trình ví dụ của khóa học."
+  help:
+    title: "Trợ giúp"
+    content: "Tìm sự trợ giúp về khóa học Ruby on Rails ở %{rails_tut}.
+              Để được trợ giúp về ứng dụng mẫu này, xem %{book}"
+  contact:
+    title: "Liên hệ"
+    content: "Liên hệ khóa học Ruby on Rails Tutorial về phần mềm mẫu ở
+              %{rails_contact}."
+              

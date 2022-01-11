@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SampleAppp</title>
+    <title>SampleApp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title><%= yield(:title) %> | <%= t "base_title" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "translations", skip_pipeline: true %>
   </head>
 
   <body>
+    <%= link_to "En", locale: :en %>
+    <%= link_to "Vi", locale: :vi %>
     <%= yield %>
+    <script type="text/javascript">
+      I18n.defaultLocale = "<%= I18n.default_locale %>";
+      I18n.locale = "<%= I18n.locale %>";
+    </script>
   </body>
 </html>

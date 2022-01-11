@@ -1,0 +1,8 @@
+
+<% provide :title, t("contact.title") %>
+<h1><%= t "contact.title" %></h1>
+<p>
+  <%= sanitize t("contact.content",
+    rails_contact: link_to(t("rails_contact"), Settings.rails_contact))
+  %>
+</p>
