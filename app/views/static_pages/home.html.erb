@@ -1,7 +1,10 @@
 <% provide :title, t("home.title") %>
-<h1><%= t "home.title" %></h1>
-<p>
-  <%= sanitize t("home.content",
-    link: link_to(t("rails_tut"), Settings.rails_tutorial))
-  %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t "home.title" %></h1>
+  <h2>
+    <%= sanitize t("home.content",
+      link: link_to(t("rails_tutorial"), Settings.rails_tutorial))
+    %>
+  </h2>
+  <%= link_to t("sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
