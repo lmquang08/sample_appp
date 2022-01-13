@@ -1,4 +1,5 @@
 vi:
+  welcome: "Chào mừng đến với Sample App"
   rails: "Ruby on Rails"
   rails_tutorial: "Hướng dẫn Ruby on Rails"
   rails_book: "Sách dạy Ruby on Rails"
@@ -26,3 +27,16 @@ vi:
     title: "Liên hệ"
     content: "Liên hệ khóa học Ruby on Rails Tutorial về phần mềm mẫu ở
               %{rails_contact}."
+  users:
+    new:
+      title: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+  error:
+    error_valid: "Hiện đang có %{error}"
+    error: "lỗi"
+    user:
+      not_found: "Không tìm thấy người dùng"
