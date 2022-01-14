@@ -1,4 +1,5 @@
 en:
+  welcome: "Welcome to the Sample App"
   rails: "Ruby on Rails"
   rails_tutorial: "Ruby on Rails tutorial"
   rails_book: "Ruby on Rails book"
@@ -27,3 +28,16 @@ en:
     title: "Contact"
     content: "Contact the Ruby on Rails Tutorial about the sample app at the
               %{rails_contact}."
+  users:
+    new:
+      title: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Create my account"
+  error:
+    error_valid: "The form contains %{error}"
+    error: "error"
+    user:
+      not_found: "Not found user"
