@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get "users/new"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   scope "(:locale)", locale: /en|vi/ do
     root "static_pages#home"
@@ -8,6 +7,10 @@ Rails.application.routes.draw do
     get "/contact", to: "static_pages#contact"
     get "/about", to: "static_pages#about"
     get "/signup", to: "users#new"
-    resources :users
+    post "/signup", to: "users#create"
+    get "/login", to: "sessions#new"
+    post "/login", to: "sessions#create"
+    get "/logout", to: "sessions#destroy"
+    resources :users, except: %i(edit update destroy)
   end
 end

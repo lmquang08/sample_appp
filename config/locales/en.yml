@@ -5,8 +5,15 @@ en:
   rails_book: "Ruby on Rails book"
   rails_contact: "Ruby on Rails contact page"
   log_in: "Log in"
+  log_out: "Log out"
   sign_up: "Sign up"
-  new_users: "This will be a signup page for new users."
+  sign_up_now: "Sign up now!"
+  invalid_user: "Invalid email/password"
+  new_user: "This will be a signup page for new users."
+  all_user: "All users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
   news: "News"
   michael_hartl: " - Michael Hartl"
   app:
@@ -36,6 +43,8 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       submit: "Create my account"
+    show:
+      not_found: "Not found user"
   error:
     error_valid: "The form contains %{error}"
     error: "error"
