@@ -22,7 +22,7 @@ gem "turbo-rails"
 gem "bootsnap", require: false
 gem "sassc-rails"
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
-gem "webpacker", "~> 4.0"
+gem "webpacker", "~> 5.0"
 group :development, :test do
   gem "pry", "~> 0.14.0"
 end
