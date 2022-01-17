@@ -5,8 +5,15 @@ vi:
   rails_book: "Sách dạy Ruby on Rails"
   rails_contact: "Trang liên lạc Ruby on Rails"
   log_in: "Đăng nhập"
+  log_out: "Đăng xuất"
   sign_up: "Đăng ký"
-  new_users: "Đây sẽ là trang đăng ký cho người dùng mới."
+  sign_up_now: "Đăng ký ngay!"
+  invalid_user: "Email hoặc mật khẩu không đúng"
+  new_user: "Đây sẽ là trang đăng ký cho người dùng mới."
+  all_user: "Tất cả người dùng"
+  account: "Tài khoản"
+  profile: "Hồ sơ người dùng"
+  setting: "Cài đặt người dùng"
   news: "Tin Tức"
   michael_hartl: " - Michael Hartl"
   app:
@@ -35,6 +42,8 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
+    show:
+      not_found: "Không tìm thấy người dùng"
   error:
     error_valid: "Hiện đang có %{error}"
     error: "lỗi"

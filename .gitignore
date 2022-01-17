@@ -39,3 +39,10 @@
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 /app/assets/images/
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
