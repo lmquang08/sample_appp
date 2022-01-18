@@ -5,6 +5,7 @@ en:
   rails_book: "Ruby on Rails book"
   rails_contact: "Ruby on Rails contact page"
   log_in: "Log in"
+  please_login: "Please log in"
   log_out: "Log out"
   sign_up: "Sign up"
   sign_up_now: "Sign up now!"
@@ -14,6 +15,10 @@ en:
   account: "Account"
   profile: "Profile"
   settings: "Settings"
+  updated: "Profile updated!"
+  update_failed: "Profile update failed!"
+  delete_user: "Delete"
+  user_deleted: "User deleted"
   news: "News"
   michael_hartl: " - Michael Hartl"
   remember_me: "Remember me?"
@@ -46,8 +51,14 @@ en:
       submit: "Create my account"
     show:
       not_found: "Not found user"
-  error:
-    error_valid: "The form contains %{error}"
-    error: "error"
-    user:
-      not_found: "Not found user"
+    edit:
+      title: "Edit User"
+      save_change: "Save change"
+      change: "Change"
+      update_profile: "Update your profile"
+      sure: "You sure?"
+    error:
+      error_valid: "The form contains %{error}"
+      error: "error"
+      user:
+        not_found: "Not found user"

@@ -131,6 +131,8 @@ GEM
       dry-schema (~> 1.8, >= 1.8.0)
     erubi (1.10.0)
     execjs (2.8.1)
+    faker (2.1.2)
+      i18n (>= 0.8)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -184,6 +186,7 @@ GEM
     nokogiri (1.13.0)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
+    pagy (5.8.1)
     parallel (1.21.0)
     parser (3.1.0.0)
       ast (~> 2.4.1)
@@ -316,12 +319,14 @@ DEPENDENCIES
   bootstrap-sass (= 3.4.1)
   capybara
   config
+  faker (= 2.1.2)
   i18n_lazy_scope
   importmap-rails
   jbuilder
   jquery-rails
   listen (~> 3.3)
   mysql2 (~> 0.5)
+  pagy
   pry (~> 0.14.0)
   pry-rails
   puma (~> 5.0)
