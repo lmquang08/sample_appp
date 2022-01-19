@@ -12,3 +12,7 @@ minimum_email: 20
 maximum_email: 255
 maximum_name: 10
 minimum_pass: 6
+gravatar_email: "https://gravatar.com/emails"
+gravatar_url: "https://secure.gravatar.com/avatar/#"
+avt_size: 50
+items_page: 8
