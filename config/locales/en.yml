@@ -21,6 +21,16 @@ en:
   user_deleted: "User deleted"
   news: "News"
   michael_hartl: " - Michael Hartl"
+  hi: "Hi"
+  account_activation: "Account activation"
+  account_activated: "Account activated!"
+  invalid_activation: "Invalid activation link"
+  click_link_to_activate: "Welcome to the Sample App! Click on the link below
+                           to activate your account:"
+  account_not_activated: "Account not activated. Check your email
+                          for the activation link."
+  activate: "Activate"
+  please_check: "Please check your email to activate your account."
   remember_me: "Remember me?"
   app:
     title: "Sample App"

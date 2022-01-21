@@ -21,6 +21,15 @@ vi:
   user_deleted: "Đã xóa người dùng"
   news: "Tin Tức"
   michael_hartl: " - Michael Hartl"
+  hi: "Hi"
+  account_activation: "Kích hoạt tài khoản"
+  account_activated: "Kích hoạt tài khoản thành công!"
+  invalid_activation: "Đường dẫn kích hoạt không khả dụng"
+  click_link_to_activate: "Chào mừng đến với Sample App! Click vào link dưới
+                           để kích hoạt tài khoản của bạn:"
+  account_not_activated: "Chưa kích hoạt tài khoản. Kiểm tra email của bạn."
+  activate: "Kích hoạt"
+  please_check: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản của bạn"
   remember_me: "Ghi nhớ người dùng?"
   app:
     title: "Ứng dụng mẫu"

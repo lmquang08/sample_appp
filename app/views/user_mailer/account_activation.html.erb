@@ -1,0 +1,4 @@
+<h1><%= t "app.title" %></h1>
+<%= "#{t "hi"} #{@user.name}, #{t "click_link_to_activate" }" %>
+<%= link_to t("activate"), edit_account_activation_url(
+  id: @user.activation_token, email: @user.email) %>
