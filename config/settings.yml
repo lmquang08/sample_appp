@@ -10,7 +10,7 @@ rails_screen_casts: "https://screencasts.railstutorial.org/"
 valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 minimum_email: 20
 maximum_email: 255
-maximum_name: 10
+maximum_name: 50
 minimum_pass: 6
 gravatar_email: "https://gravatar.com/emails"
 gravatar_url: "https://secure.gravatar.com/avatar/#"
